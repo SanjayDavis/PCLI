@@ -5,18 +5,18 @@ It features **dependency resolution**, **local caching**, and **safe system prot
 
 ---
 
-## 🚀 Features
-- 📦 Fetches and parses official Ubuntu repository metadata (`Packages.gz`)
-- 🔍 Search packages by name
-- ℹ️ View detailed package info (version, architecture, dependencies)
-- ⚙️ Install `.deb` packages and auto-resolve dependencies
-- 🧱 Protects core system packages from accidental modification
-- 💾 Caches package metadata for fast, offline lookups
-- 🧮 Supports progress bars (via `tqdm`)
+## Features
+-  Fetches and parses official Ubuntu repository metadata (`Packages.gz`)
+-  Search packages by name
+-  View detailed package info (version, architecture, dependencies)
+-  Install `.deb` packages and auto-resolve dependencies
+-  Protects core system packages from accidental modification
+-  Caches package metadata for fast, offline lookups
+-  Supports progress bars (via `tqdm`)
 
 ---
 
-## 🖥️ Installation
+## Installation
 Clone the repository and make the script executable:
 ```bash
 git clone https://github.com/<your-username>/packhub.git
