@@ -54,13 +54,13 @@ Force Database Update:
 python3 packhub.py update --force
 ```
 
-##System Safety
+## System Safety
 PackHub blocks installation or modification of system-critical packages such as:
 
 libc6, dpkg, apt, bash, coreutils, systemd, base-files, etc.
 This ensures the tool never corrupts your base system.
 
-##Directory Structure
+## Directory Structure
 ```bash
 ~/.cache/packhub/           # Cached package database
 ./debian_packages/          # Temporary downloaded .deb files
