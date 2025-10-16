@@ -1,4 +1,4 @@
-# PackHub — Standalone Ubuntu Package Manager CLI
+# PCLI — Standalone Ubuntu Package Manager CLI
 
 PackHub is a **self-contained command-line package manager** for Ubuntu that downloads package metadata and `.deb` files directly from official repositories — no `apt` backend required.  
 It features **dependency resolution**, **local caching**, and **safe system protection** to prevent overwriting critical packages.
